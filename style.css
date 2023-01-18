@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: yellow;
+    width: 100%;
+    height: 1000px; 
+} 
+
+h1{
+    text-align: center;
+}
+
+.box{
+    width: 500px;
+    height: 100px;   
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;   
+    margin-bottom: 40px;
+    padding-left: 60px;
+  
+}
+
+.box1{
+   width: 100px;
+   height: 100px;
+   background-color: brown;  
+   border: 2px solid black;
+   animation-name: shruthi;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease;
+}
+
+@keyframes shruthi{
+    0%{
+       transform: skewX(-30deg);
+    }
+    100%{
+       transform: skewX(30deg);
+    }
+}
+
+.box2{
+    width: 100px;
+    height: 100px;  
+    background-color: blue;  
+    border: 2px solid lightskyblue;
+    animation-name: kokila;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+ }
+ 
+ @keyframes k1{
+     50%{
+        transform: skewY(30deg);
+     }
+     100%{
+        transform: skewY(-30deg);
+     }
+ }
+.box3{
+  width: 100px;
+   height: 100px;  
+  background-color: lightgreen;  
+  border: 2px solid bisque;
+  animation-name: shru;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes k2{
+     0%{
+        transform: rotate(90deg);
+     }
+     100%{
+        transform: rotate(360deg);
+     }
+}
+
+.boxs1{
+   width: 100px;
+   height: 100px;  
+  background-color: greenyellow;  
+  border: 2px solid orange;
+  animation-name: raam;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes k3{
+   0%{
+      transform: scaleY(0.5);
+   }
+   100%{
+      transform: scaleY(1.1);
+   
+   }
+}
+
+.boxs2{
+   width: 100px;
+   height: 100px;  
+  background-color: red;  
+  border: 2px solid blue;
+  animation-name: barby;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes k4{
+   0%{
+      transform: scaleX(0.5);
+   }
+   100%{
+      transform: scaleX(1.1);
+   
+   }
+}
+
+.boxs3{
+   width: 100px;
+   height: 100px;  
+  background-color: violet;  
+  border: 2px solid black;
+  animation-name: karuna;
+  animation-duration: 3s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes k5{
+   0%{
+      transform: rotate();
+   }
+   100%{
+      transform: rotate(95deg);
+   
+   }
+}
+
+a{
+   margin-left: 450px;
+   font-size: 40px;
+}
